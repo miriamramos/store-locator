@@ -66,7 +66,7 @@ $result_array = array();
         height: 100%;
       }   
     </style>
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyAQGU1QbdYiJBc01gBuzk6fAA8wTjkzOQs"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script>
         var map;
