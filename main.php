@@ -67,7 +67,7 @@ $result_array = array();
       }   
     
     </style>
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyAu1P0HdvAd4NL7BgKKqvREg8jUrMHrPJM"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQGU1QbdYiJBc01gBuzk6fAA8wTjkzOQs&signed_in=true&callback=initialize" async defer></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script>
