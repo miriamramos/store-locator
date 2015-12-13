@@ -67,7 +67,7 @@ $result_array = array();
       }   
     
     </style>
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyBsYVLaGllEz-XZYoF6xv_wqPsrG0k7oFs"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQGU1QbdYiJBc01gBuzk6fAA8wTjkzOQs&v=3.exp"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script>
         var map;
