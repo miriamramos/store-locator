@@ -54,7 +54,7 @@ $result_array = array();
 }
 // Perform Query
 ?>
-<html>
+<!DOCTYPE html>
   <head>
     <title>Starter Code</title>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
@@ -67,7 +67,7 @@ $result_array = array();
       }   
     
     </style>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQGU1QbdYiJBc01gBuzk6fAA8wTjkzOQs&v=3.exp"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDLY886IZf3POlyvyqSsclbYVPgDX93dcA"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script>
         var map;
@@ -76,6 +76,7 @@ $result_array = array();
         var service;
         var markers;
         var addressPosition;
+        var enderecos = [];
         
         function initialize() {
             var mapOptions = {
@@ -118,6 +119,7 @@ $result_array = array();
               if(lista.length > 0){
                   document.getElementById('outputMYSQL').innerHTML = htmldiv;
                   service = new google.maps.DistanceMatrixService();
+                  enderecos.push(listaEnd[0]);
                   calculateDistances(callback,listaEnd,lat,lng);
               }
               

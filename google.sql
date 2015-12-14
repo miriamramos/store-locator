@@ -52,12 +52,7 @@ INSERT INTO `store_locator`.`markers` (`id`, `name`, `address`, `lat`, `lng`) VA
 INSERT INTO `store_locator`.`markers` (`id`, `name`, `address`, `lat`, `lng`) VALUES ('12', 'UNITAU', 'RUA EXP ERNESTO PEREIRA,Centro,Taubaté - SP', '-23.0276542', '-45.5649753');
 INSERT INTO `store_locator`.`markers` (`id`, `name`, `address`, `lat`, `lng`) VALUES ('13', 'Colégio Nossa Senhora de Aparecida', 'Rua Coronel José Monteiro, São José dos Campos - SP', '-23.1821016', '-45.8838996');
 INSERT INTO `store_locator`.`markers` (`id`, `name`, `address`, `lat`, `lng`) VALUES ('14', 'ETEP', 'Av. Barão do Rio Branco, 882 - Jardim Esplanada,São José dos Campos - SP', '-23.1991216', '-45.9079626');
-INSERT INTO `store_locator`.`markers` (`id`, `name`, `address`, `lat`, `lng`) VALUES ('15', 'Olavo Bilac', 'Rua Franciso Paes, Centro,São José dos Campos - SP', '-23.1858278', '-45.8878214');
-INSERT INTO `store_locator`.`markers` (`id`, `name`, `address`, `lat`, `lng`) VALUES ('16', 'ICBEU', 'Av. Dr. Ademar de Barros, 464 - Jardim Sao Dimas,São José dos Campos - SP', '-23.1858028', '-45.8943875');
-INSERT INTO `store_locator`.`markers` (`id`, `name`, `address`, `lat`, `lng`) VALUES ('17', 'CNA', 'Av. Ricieri José Marcatto, 297 - Vila Suissa,Mogi das Cruzes - SP', '-23.5026729', '-46.1950089');
-INSERT INTO `store_locator`.`markers` (`id`, `name`, `address`, `lat`, `lng`) VALUES ('18', 'Wizard Mogi Vila Oliveira', 'R. Dr. Ricardo Viléla, 1380 - Centro,Mogi das Cruzes - SP', '-23.5022128', '-46.3000729');
-INSERT INTO `store_locator`.`markers` (`id`, `name`, `address`, `lat`, `lng`) VALUES ('19', 'Skill Idiomas - Bosque dos Eucaliptos', 'Av. Cidade Jardim, 2952 - Bosque dos Eucaliptos,São José dos Campos - SP', '-23.2401649', '-45.8836326');
-INSERT INTO `store_locator`.`markers` (`id`, `name`, `address`, `lat`, `lng`) VALUES ('20', 'Callan Method - Unidade A DOT - Faria Lima', 'Rua Oswaldo Ricci, 409 - Parque Martim Cecere,São José dos Campos - SP', '-23.2162998', '-45.8799849');
+
 /*!40000 ALTER TABLE `markers` ENABLE KEYS */;
 UNLOCK TABLES;
 
